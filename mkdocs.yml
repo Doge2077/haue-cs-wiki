@@ -1,4 +1,93 @@
-site_name: My Docs
+# [Info]
+site_name: HAUE CS WIKI # 左上角标题
+site_url: https://haue-cs-wiki
+site_author: LYS
+
+# [Navigtion]
+nav:
+  - 新手入门:
+      - 河工计算机专业介绍: 新手入门/河工计算机专业介绍.md
+      - 小白如何选择笔记本电脑: 新手入门/小白如何选择笔记本电脑.md
+      - 老学长的建议(别急): 新手入门/老学长的建议
+  - 编程语言基础:
+      - C/C++ 基础入门: 编程语言基础/C&C++基础入门.md
+
+
+
+# [UI]
+## [top]
 theme:
   name: material
+  palette:
+    - scheme: default         # 日间模式
+      primary: cyan           # 上方的
+      accent: deep purple     # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night   # 图标
+        name: 切换至夜间模式              # 鼠标悬浮提示
+    - scheme: slate                    # 夜间模式
+      primary: purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
 
+  features:
+    - navigation.top            # 返回顶部的按钮 在上滑时出现
+    - navigation.indexes        # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
+    - navigation.expand         # 打开Tab时左侧目录全部展开
+    - search.suggest            # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight          # 搜索出的文章关键词加入高亮
+    - content.code.copy         # 可以通过按钮复制代码
+    - content.action.edit       # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
+  language: zh                  # 一些提示性的文字会变成中文
+  icon:
+    repo: fontawesome/brands/github
+edit_uri: edit/main/docs         # 编辑按钮跳转的链接
+
+## [top-right corner]
+repo_url: https://github.com/Doge2077/haue-cs-wiki # 右上角点击跳转的链接
+repo_name: Doge2077/haue-cs-wiki # 右上角的名字
+## [bottom-left corner]
+copyright: LYS CC-BY-4.0 # 左下角的版权声明
+## [bottom-right corner]
+extra:
+  social: # icons
+    - icon: fontawesome/brands/github
+      link: https://github.com/Doge2077/haue-cs-wiki
+      name: GitHub | haue-cs-wiki
+
+# [Extensions]
+plugins:
+  - search:                # 现在还不支持中文搜索 支持之后可以设置语言
+    # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
+      lang:
+        - en
+        - ja
+  - tags                   # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+markdown_extensions:
+  - pymdownx.arithmatex:   # latex支持
+      generic: true
+  - attr_list              # 给图片后面添加{width="300"}设置大小
+  - toc:
+      permalink: true        # 固定标题位置为当前位置
+  - pymdownx.highlight:      # 代码块高亮
+      # linenums: true       # 显示行号
+      # auto_title: true     # 显示编程语言名称
+  - pymdownx.superfences     # 代码块高亮插件
+  - meta                     # 支持Markdown文件上方自定义标题标签等
+  - admonition               # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
+  - pymdownx.details         # admonition需要
+
+extra_javascript:
+  # latex支持
+  # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
+  # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docs/mkdocs/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docs/mkdocs/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
+  - mkdocs/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
+extra_css:
+  - mkdocs/css/no-footer.css               # 不使用底部的翻页
+  - mkdocs/css/unordered-list-symbols.css  # multiplt unordered list symbols
+
+comments: true
