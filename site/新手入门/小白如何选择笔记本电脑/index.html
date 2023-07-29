@@ -426,6 +426,7 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  
                   
   
 
@@ -447,6 +448,25 @@
 
 
                 
+<h2 id="__comments">评论</h2>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <div id="gitalk-container"></div>
+
+  <script>
+const gitalk = new Gitalk({
+  clientID: 'a1258824b49d11a596bf',
+  clientSecret: '3a7981ea0ac2a7a82ee2d097cc8f6360c6dc1e3f',
+  repo: 'haue-cs-wiki',      // The repository of store comments,
+  owner: 'Doge2077',
+  admin: ['Doge2077'],
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+  </script>
+
               </article>
             </div>
           
