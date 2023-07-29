@@ -18,6 +18,7 @@ nav:
 ## [top]
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default         # 日间模式
       primary: cyan           # 上方的
