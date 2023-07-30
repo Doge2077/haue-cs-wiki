@@ -17,6 +17,7 @@ nav:
 # [UI]
 ## [top]
 theme:
+  favicon: assets/favicon.png
   logo: assets/favicon.png
   name: material
   custom_dir: overrides
