@@ -1,0 +1,149 @@
+body {
+  background: url(https://raw.githubusercontent.com/hassan-siraj/flipbox/master/photobg.jpg)
+    no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 350px;
+  height: 200px;
+  margin: 0 auto;
+}
+.heading {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+.heading h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Amaranth", sans-serif;
+}
+.flip-wrap {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 50px 15px;
+  text-align: center;
+  height: 350px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: relative;
+  margin-bottom: 30px;
+  -webkit-transform: rotateY(0deg); /* Safari */
+  transform: rotateY(0deg);
+}
+.box img {
+  width: 100%;
+}
+.box .box-img {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #000;
+  margin-bottom: 2px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 1;
+}
+.box .flipbox h2 {
+  color: #fff;
+  font-size: 18px;
+  margin: 0px 0px 10px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.box .flipbox p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0;
+  display: none;
+}
+.box ul.social-links {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  bottom: 0px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.box ul.social-links li {
+  display: inline-block;
+}
+.box ul.social-links li a {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #000;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 18px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+.box ul.social-links li a:hover {
+  -webkit-transform: rotateY(360deg); /* Safari */
+  transform: rotateY(360deg);
+}
+.box:hover .flip-wrap {
+  -webkit-transform: rotateY(180deg); /* Safari */
+  transform: rotateY(180deg);
+}
+.box:hover .box-img {
+  opacity: 0;
+  display: none;
+}
+.box:hover .flipbox {
+  -webkit-transform: rotateY(-180deg); /* Safari */
+  transform: rotateY(-180deg);
+}
+.box:hover .flipbox p {
+  display: inline-block;
+  opacity: 1;
+}
+.box:hover .flipbox a {
+  color: #fff;
+}
+.flipbox h2 {
+  font-size: 24px;
+  font-family: "Amaranth", sans-serif;
+}
+.box .flipbox {
+  min-height: 240px;
+  position: relative;
+}
+.box:hover .flipbox h2 {
+  color: #fff;
+  font-size: 32px;
+  margin: 0px 0px 25px;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
