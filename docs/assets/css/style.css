@@ -1,149 +1,88 @@
-body {
-  background: url(https://raw.githubusercontent.com/hassan-siraj/flipbox/master/photobg.jpg)
-    no-repeat;
-  background-size: cover;
+* {
+  font-family: Poppins;
 }
-.container {
-  width: 350px;
-  height: 200px;
-  margin: 0 auto;
+.cards {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-auto-columns: 100%;
+  grid-auto-flow: column;
+  padding: 25px 0;
+  list-style: none;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
 }
-.heading {
-  border-bottom: 1px solid #fff;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  text-align: center;
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #f6f6f6;
+  border-radius: 25px;
+  scroll-snap-align: start;
+  transition: all 0.2s;
 }
-.heading h1 {
-  font-size: 40px;
+.card:hover {
   color: #fff;
-  font-family: "Amaranth", sans-serif;
+  background: #fd9940;
 }
-.flip-wrap {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
-  padding: 50px 15px;
-  text-align: center;
-  height: 350px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  position: relative;
-  margin-bottom: 30px;
-  -webkit-transform: rotateY(0deg); /* Safari */
-  transform: rotateY(0deg);
+.icon {
+  width: 75px;
+  border-radius: 100%;
+  transition: 750ms;
 }
-.box img {
+.icon:hover {
+  transform: scale(1.2);
+}
+.card .card-title {
+  font-size: 1.2rem;
+  margin-top: 13px;
+}
+.card-sub {
+  font-size: 1rem;
+  margin-top: -40px;
+}
+.card .card-content {
+  margin: 40px 0;
+}
+.card .card-link-wrapper {
+  display: flex;
+}
+.card-link {
+  margin-right: 10px;
+  background: #117ac9;
+  padding: 7px 14px;
+  border-radius: 100px;
   width: 100%;
-}
-.box .box-img {
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  margin: 0 auto;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid #000;
-  margin-bottom: 2px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  opacity: 1;
-}
-.box .flipbox h2 {
-  color: #fff;
-  font-size: 18px;
-  margin: 0px 0px 10px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.box .flipbox p {
-  color: #fff;
-  font-size: 14px;
-  line-height: 18px;
-  opacity: 0;
-  display: none;
-}
-.box ul.social-links {
   text-align: center;
-  margin: 0px;
-  padding: 0px;
-  position: absolute;
-  left: 50%;
-  margin-left: -70px;
-  width: 140px;
-  bottom: 0px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.box ul.social-links li {
-  display: inline-block;
-}
-.box ul.social-links li a {
-  width: 40px;
-  height: 40px;
   color: #fff;
-  background: #000;
-  display: inline-block;
-  border-radius: 50%;
-  line-height: 40px;
-  font-size: 18px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  transition: 0.6s;
-  transform-style: preserve-3d;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 200ms;
 }
-.box ul.social-links li a:hover {
-  -webkit-transform: rotateY(360deg); /* Safari */
-  transform: rotateY(360deg);
+.card-link:hover {
+  transform: scale(0.95);
 }
-.box:hover .flip-wrap {
-  -webkit-transform: rotateY(180deg); /* Safari */
-  transform: rotateY(180deg);
+.cards::-webkit-scrollbar {
+  height: 12px;
 }
-.box:hover .box-img {
-  opacity: 0;
-  display: none;
+.cards::-webkit-scrollbar-thumb {
+  border-radius: 92px;
+  background: #117ac9;
 }
-.box:hover .flipbox {
-  -webkit-transform: rotateY(-180deg); /* Safari */
-  transform: rotateY(-180deg);
+@media (max-width: 700px) {
+  .cards {
+    grid-column-gap: 30px;
+  }
 }
-.box:hover .flipbox p {
-  display: inline-block;
-  opacity: 1;
+@media (min-width: 700px) {
+  .cards {
+    grid-auto-columns: calc(calc(100% / 3) - 20px);
+    grid-column-gap: 30px;
+  }
 }
-.box:hover .flipbox a {
-  color: #fff;
-}
-.flipbox h2 {
-  font-size: 24px;
-  font-family: "Amaranth", sans-serif;
-}
-.box .flipbox {
-  min-height: 240px;
-  position: relative;
-}
-.box:hover .flipbox h2 {
-  color: #fff;
-  font-size: 32px;
-  margin: 0px 0px 25px;
-  -webkit-transition: all 0.7s ease;
-  -moz-transition: all 0.7s ease;
-  -ms-transition: all 0.7s ease;
-  -o-transition: all 0.7s ease;
-  transition: all 0.7s ease;
+@media (min-width: 1100px) {
+  .cards {
+    grid-auto-columns: calc(25% - 30px);
+    grid-column-gap: 40px;
+  }
 }
