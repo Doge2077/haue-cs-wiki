@@ -35,7 +35,7 @@
 ****
 
 - 课程地址：[【Python教程】《零基础入门学习Python》最新版](https://www.bilibili.com/video/BV1c4411e77t/?spm_id_from=333.337.search-card.all.click&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[零基础入门学习python-第2版](链接：https://pan.baidu.com/s/1lbYjcpkYKiBFrhyGqlXCoQ?pwd=haue)
+- 配套文档：[零基础入门学习python-第2版](https://pan.baidu.com/s/1lbYjcpkYKiBFrhyGqlXCoQ?pwd=haue)
 
 ****
 
