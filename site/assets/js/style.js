@@ -1,20 +1,26 @@
-const buttons = document.querySelectorAll(".card-buttons button");
-const sections = document.querySelectorAll(".card-section");
-const card = document.querySelector(".card");
-
-const handleButtonClick = (e) => {
-  const targetSection = e.target.getAttribute("data-section");
-  const section = document.querySelector(targetSection);
-  targetSection !== "#about"
-    ? card.classList.add("is-active")
-    : card.classList.remove("is-active");
-  card.setAttribute("data-state", targetSection);
-  sections.forEach((s) => s.classList.remove("is-active"));
-  buttons.forEach((b) => b.classList.remove("is-active"));
-  e.target.classList.add("is-active");
-  section.classList.add("is-active");
-};
-
-buttons.forEach((btn) => {
-  btn.addEventListener("click", handleButtonClick);
-});
+(function () {
+  var app;
+  $(document).ready(function () {
+    return app.init();
+  });
+  app = {
+    text: "The Wall of Fame in HAUE",
+    index: 0,
+    chars: 0,
+    speed: 100,
+    container: ".text .content",
+    init: function () {
+      this.chars = this.text.length;
+      return this.write();
+    },
+    write: function () {
+      $(this.container).append(this.text[this.index]);
+      if (this.index < this.chars) {
+        this.index++;
+        return window.setTimeout(function () {
+          return app.write();
+        }, this.speed);
+      }
+    }
+  };
+}.call(this));
