@@ -38,4 +38,4 @@
 
 ****
 
-* 感谢[@FlapyPan](https://www.flapypan.top/)对河工名人堂前端页面做出的贡献。
+* 感谢[@FlapyPan](https://www.flapypan.top/)对河工名人堂前端页面排版做出的贡献。
