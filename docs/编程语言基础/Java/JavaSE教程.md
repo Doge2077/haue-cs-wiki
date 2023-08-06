@@ -35,7 +35,7 @@
 ****
 
 - 课程地址：[JavaSE 教程 已完结 (IDEA 2022 最新版) 4K蓝光画质+杜比音效 零基础入门一套搞定 入门到入土](https://www.bilibili.com/video/BV1YP4y1o75f/?spm_id_from=333.999.0.0&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[课程讲义](https://itbaima.net/document)
+- 配套文档：[课程讲义](https://itbaima.net/document/0/0/0)
 
 ****
 
@@ -43,6 +43,7 @@
 
 ****
 
+* [JavaSE官方文档中文版](https://www.w3cschool.cn/java/dict.html)
 * [@JCG](https://jcg2023.top/)在学习这门课程时留下的[笔记](https://jcg2023.top/articleList?id=1&label=2)
 * [@XHZ](https://www.yuque.com/spumante)在学习这门课程时留下的[笔记](https://www.yuque.com/spumante/xhz/5b17077a560dbb666966dff1bea3a57d#fsA3Z)
 

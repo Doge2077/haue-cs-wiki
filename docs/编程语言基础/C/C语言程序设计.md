@@ -35,7 +35,7 @@
 ****
 
 - 课程地址：[C语言程序设计 已完结（CLion 2022 最新版）4K蓝光画质+杜比音效 梦开始的地方](https://www.bilibili.com/video/BV1Cr4y137os/?spm_id_from=333.999.0.0&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[课程讲义](https://itbaima.net/document)
+- 配套文档：[课程讲义](https://itbaima.net/document/3/0/0)
 
 ****
 
