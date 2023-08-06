@@ -82,15 +82,17 @@
 
 由于我的精力有限，我实在不可能把所有计算机相关的都学一遍。因此，如果你有推荐的课程或资料分享，欢迎提交pr或发邮件给我[1002302241@qq.com](mailto:1002302241@qq.com)。
 
-课程介绍模板参考：[docs/模板/课程模板.md](https://github.com/Doge2077/haue-cs-wiki/blob/main/docs/%E6%A8%A1%E6%9D%BF/%E8%AF%BE%E7%A8%8B%E6%A8%A1%E6%9D%BF.md)
-
-新增课程目录添加到 `mkdocs.yml` 里面的 `nav` 配置中，可以参考[官方文档](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/)。
+提交pr请参考本项目主页的 [`README.md`](https://github.com/Doge2077/haue-cs-wiki#%E6%88%90%E4%B8%BA%E8%B4%A1%E7%8C%AE%E8%80%85)。
 
 ### 关于交流群的建立？
 
 ****
 
-是滴，正在建，挂靠河南工程学院计算机协会，针对计算机学习我们即将建立学习矩阵（<u>画饼</u>），敬请期待！
+针对计算机的学习我们即将建立了以下学习矩阵：
+
+* [河工C/C++交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=wK6lTceTXsM1ZHeWWo4i9gfiIy7YFvNz&authKey=O1BE3SHj%2FlfR%2BIo%2Bf9wsVWPl3Gd4YUDzRqk7IehjGpD4NZuMK2aKQ50Q3EcQMCc2&noverify=0&group_code=907733709)
+* [河工Python交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V4RfyZcFpEw-wfnX-Ck6c0Q8a1NsHK2T&authKey=YK5doMcM43LIIDb8dFkcmymd9g7QThEB9q89m604hVq7VI6v69jSRIfmfQSrN6EE&noverify=0&group_code=476586332)
+* [河工Java交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Zm8MUF5_X_NttegYnhdv9eeYxv2iC7sn&authKey=rwPlDN5zUbwU8WzOSvv%2FR3u8wwgS2yu7DAvFAq%2BMRATIglis8SNHg3%2FCLhW%2Bpi8I&noverify=0&group_code=907625834)
 
 ****
 
