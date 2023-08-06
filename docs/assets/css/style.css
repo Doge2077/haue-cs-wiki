@@ -156,7 +156,7 @@ button.learn-more {
 }
 
 button.learn-more .circle {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 250ms cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
   margin: 0;
