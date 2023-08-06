@@ -7,13 +7,14 @@ site_author: LYS
 # [Navigtion]
 nav:
   - 前言: index.md
-  - 必学工具:
-      - 翻墙: 必学工具/翻墙.md
   - 新手入门:
       - 河工计算机专业介绍: 新手入门/河工计算机专业介绍.md
       - 河工计算机学科竞赛介绍: 新手入门/河工计算机学科竞赛介绍.md
       - 小白如何选择笔记本电脑: 新手入门/小白如何选择笔记本电脑.md
       - 老学长的建议: 新手入门/老学长的建议.md
+  - 推荐工具:
+      - 翻墙: 推荐工具/翻墙.md
+      - JetBrains全家桶: 推荐工具/JetBrains全家桶.md
   - 编程语言基础:
       - C :
           - C语言程序设计: 编程语言基础/C/C语言程序设计.md
@@ -100,6 +101,7 @@ plugins:
   - tags                   # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
 markdown_extensions:
   - md_in_html
+  - footnotes
   - pymdownx.arithmatex:   # latex支持
       generic: true
   - attr_list              # 给图片后面添加{width="300"}设置大小
