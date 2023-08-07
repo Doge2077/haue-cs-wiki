@@ -55,7 +55,7 @@ JetBrains全家桶是指由JetBrains公司开发的一系列集成开发环境�
 
 ****
 
-JetBrains为安装了其IDE开发环境的管理工具————Toolbox。
+JetBrains为安装了其IDE开发环境的管理工具——Toolbox。
 
 我推荐安装JetBrains Toolbox来安装和管理你的IDE。
 
@@ -90,11 +90,15 @@ JetBrains为安装了其IDE开发环境的管理工具————Toolbox。
 JetBrains系列的产品为学生提供免费服务，申请条件如下：
 
 * 注册一个邮箱信息可用的JetBrains账户
-* 拥有学生邮箱，及学信网可查的学籍
+* 拥有学生邮箱，或学信网可查的学籍
 
 由于不可知的原因，河工学生邮箱已停止注册服务（
 
-如果你有学生邮箱，可以根据该[教程](https://zhuanlan.zhihu.com/p/136497468)进行申请。
+* 如果你有学生邮箱，可以根据该[教程](https://zhuanlan.zhihu.com/p/136497468)进行申请。
+
+* 如果没有，那么仍可通过学信网及相关文件参考[教程](https://zhuanlan.zhihu.com/p/378185042)进行申请。
+
+ps：该方法申请后有效期为一年，之后需要重新申请，但是可以最大限度的享受到JetBrains全家桶及其相关服务。
 
 ****
 

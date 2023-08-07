@@ -84,6 +84,8 @@
 
 提交pr请参考本项目主页的 [`README.md`](https://github.com/Doge2077/haue-cs-wiki#%E6%88%90%E4%B8%BA%E8%B4%A1%E7%8C%AE%E8%80%85)。
 
+****
+
 ### 关于交流群的建立？
 
 ****
