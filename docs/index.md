@@ -103,3 +103,4 @@
 ****
 
 * 感谢[@FlapyPan](https://www.flapypan.top/)对河工名人堂前端页面做出的贡献。
+* 感谢[@Spumante](https://www.yuque.com/spumante)人工智能学习板块。
