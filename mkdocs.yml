@@ -1,5 +1,5 @@
 # [Info]
-site_name: HAUE CS WIKI # 左上角标题
+site_name: HAUE-CS-WIKI # 左上角标题
 site_url: https://hauecs.wiki
 site_author: LYS
 
@@ -62,7 +62,7 @@ theme:
   palette:
     - scheme: default         # 日间模式
       primary: cyan           # 上方的
-      accent: purple          # 链接等可交互元件的高亮色
+      accent: deep purple     # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night   # 图标
         name: 切换至夜间模式              # 鼠标悬浮提示
