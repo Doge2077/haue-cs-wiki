@@ -6,13 +6,13 @@
 
 ****
 
-你好哇！欢迎来到HAUE CS WIKI，这里是河工计算机学习指南。
+你好哇！欢迎来到 HAUE-CS-WIKI，这里是河工计算机学习指南。
 
 在这里，我针对河工的计算机专业课程收集整理了一些我亲自学习过或具有极佳口碑的计算机相关课程指南，希望对你将来的学习有所帮助。
 
-GitHub 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
+GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 
-国内镜像地址：[wiki.lys2021.com](https://wiki.lys2021.com)
+国内镜像地址（隔日同步拉取更新）： [wiki.lys2021.com](https://wiki.lys2021.com)
 
 ****
 
