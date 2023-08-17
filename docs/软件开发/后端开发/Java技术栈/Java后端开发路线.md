@@ -63,7 +63,7 @@
 * Spring 系列框架：Spring、SpringMVC、SpringSecurity、SpringBoot、SpringDataJPA
 * 中间件：Redis 数据库。
 * 操作系统：Linux
-* 版本控制；Git
+* 版本控制：Git
 
 通过这一阶段的学习，你就能基本掌握前后端分离架构的 web 项目开发，独立完成项目管理，以及合理使用中间件来实现各种功能。
 

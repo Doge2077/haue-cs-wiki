@@ -13,7 +13,7 @@
 - 先修要求：JavaSE
 - 课程作者：柏码程序员-首席讲师
 - 课程时长：30h
-- 内容简介：针对于大学生录制的Java学习课程（含Servlet/Maven/网络编程/Mybatis/JUnit/数据库）
+- 内容简介：针对于大学生录制的 JavaWeb 学习课程（含Servlet/Maven/网络编程/Mybatis/JUnit/数据库）
 
 **课程评价**：
 
