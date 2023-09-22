@@ -44,7 +44,7 @@
 ****
 
 - 课程地址：[JavaWeb 教程 已完结（IDEA 2021版本）4K蓝光画质 入土到起立](https://www.bilibili.com/video/BV1CL4y1i7qR/?spm_id_from=333.999.0.0&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[课程讲义](https://itbaima.net/document/1/0/0)
+- 配套文档：[课程讲义](https://itbaima.net/document/2/7/0)
 
 ****
 

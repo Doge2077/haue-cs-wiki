@@ -43,7 +43,7 @@
 ****
 
 - 课程地址：[Spring 核心教程 已完结（IDEA 2023最新版）4K蓝光画质 基于Spring6的全新重制版本 起立到起飞](https://www.bilibili.com/video/BV1Kv4y1x7is/?vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[课程讲义](https://itbaima.net/document/2/0/0)
+- 配套文档：[课程讲义](https://itbaima.net/document/3/8/0)
 
 ****
 

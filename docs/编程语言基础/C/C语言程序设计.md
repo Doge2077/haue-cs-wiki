@@ -35,7 +35,7 @@
 ****
 
 - 课程地址：[C语言程序设计 已完结（CLion 2022 最新版）4K蓝光画质+杜比音效 梦开始的地方](https://www.bilibili.com/video/BV1Cr4y137os/?spm_id_from=333.999.0.0&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[课程讲义](https://itbaima.net/document/3/0/0)
+- 配套文档：[课程讲义](https://itbaima.net/document/4/12/0)
 
 ****
 
@@ -43,6 +43,7 @@
 
 ****
 
+* [JetBrains 全家桶安装教程](https://wiki.lys2021.com/%E6%8E%A8%E8%8D%90%E5%B7%A5%E5%85%B7/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6/)
 * [计算机学院在线评测练习系统](http://www.haueacm.top/)
 * [@LYS](https://lys2021.com/)在学习这门课程时留下的[笔记](https://lys2021.com/?p=686)
 

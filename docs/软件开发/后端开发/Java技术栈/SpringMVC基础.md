@@ -43,7 +43,7 @@
 ****
 
 - 课程地址：[Spring MVC 教程 已完结（IDEA 2023最新版）4K蓝光画质 基于Spring6的全新重制版本 起立到起飞](https://www.bilibili.com/video/BV1Lh4y1M7kx?p=15&vd_source=ce95ad6607d316dd76f87b90ab69fa3f)
-- 配套文档：[课程讲义](https://itbaima.net/document/2/0/1)
+- 配套文档：[课程讲义](https://itbaima.net/document/3/8/1)
 
 ****
 
