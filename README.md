@@ -25,13 +25,14 @@ GitHub Pages 源站构建（需要魔法）：[hauecs.wiki](https://hauecs.wiki)
 * 首先 `fork` 本项目到你的 `repo`，然后拉取你的 `repo` 到本地，**修改前在本地建立新分支**
 * 运行本项目需要的环境依赖在 `requirements.txt`，请使用 `pip install -r requirements.txt` 命令安装
 * 部署到本地测试使用命令 `mkdocs serve` 默认为 `8000` 端口，可以添加参数 `-a` 进行更改，例 `mkdocs serve -a localhost:8080`
+* 如果你使用虚拟环境，记得执行 `.\venv\Scripts\activate`。
 * 课程介绍模板参考：[docs/模板/课程模板.md](https://github.com/Doge2077/haue-cs-wiki/blob/main/docs/%E6%A8%A1%E6%9D%BF/%E8%AF%BE%E7%A8%8B%E6%A8%A1%E6%9D%BF.md)
 * 最后新增课程目录添加到 `mkdocs.yml` 里面的 `nav` 配置中，可以参考[官方文档](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/)。
 
 **注意**：
 
 * 在新建分支前，注意检查 `main` 分支是否与主项目保持同步，若不同步，记得拉取更新
-* 请不要在 `main` 分支上修改并提交 pr，一定要新建本地分支修改再提交 pr，不符合规范的 pr 将不被审理
+* 提交 pr 前也可以先联系我先行审核，避免后续修改，或者干脆发给我，我帮你 pr 上去（
 * 请在合并完成后再删除本地修改的分支。
 
 ****
